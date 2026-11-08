@@ -1,0 +1,79 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+FORMA 1 PARA AFECTAR AL HTML
+*/
+
+/* LAMO A LA ETIQUETA*/
+body{
+    background-color: #f0f0f0;
+    margin: 30px; /* MARGEN EXTERNO*/
+
+
+}
+
+/* form 2 PARA AFECTAR AL HTML MEDIANTE UNA CLASE*/
+
+/* form 2 PARA AFECTAR EL COTENEDOR AL HTML MEDIANTE UNA CLASE*/
+
+.contenedor{
+    background-color: white;
+    padding: 25px;
+}
+
+#titulo{
+    color: #;
+}
+
+
+/* Fuerza a que las etiquetas ocupen su propia línea encima del input */
+.form-card label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Ajusta los inputs para que ocupen el 100% del ancho del contenedor */
+.form-card input[type="text"],
+.form-card input[type="email"],
+.form-card input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-card input:focus {
+    outline: none;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+}
+
+
